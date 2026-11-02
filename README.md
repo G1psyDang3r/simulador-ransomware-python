@@ -52,3 +52,13 @@ python descriptografar.py
 ```
 
 > **O que observar:** O script fará a leitura da chave em `chavesinha.key`, descriptografará o `teste.txt` e retornará o conteúdo original do arquivo ao seu estado legível.
+
+## 🛡️ Considerações de Segurança e Defesa Cibernética
+
+Este projeto tem caráter estritamente educacional e defensivo. Compreender o funcionamento lógico de um ransomware é o primeiro passo para implementar estratégias robustas de mitigação e resposta a incidentes.
+
+### Estratégias de Mitigação e Defesa:
+- **Políticas de Backup (Regra 3-2-1):** Manter cópias de segurança atualizadas, isoladas da rede principal (air-gapped) e imutáveis, garantindo a recuperação sem a necessidade de pagamento de resgates.
+- **Princípio do Menor Privilégio:** Restringir permissões de escrita e execução de usuários e serviços apenas ao necessário, limitando o raio de ação de um potencial malware.
+- **Monitoramento e EDR:** Utilizar ferramentas de detecção de endpoints para identificar padrões anômalos de leitura/escrita em massa de arquivos em tempo real.
+- **Conscientização:** Treinamento contínuo de colaboradores contra técnicas de engenharia social (phishing), que costumam ser o vetor inicial de infecção.
